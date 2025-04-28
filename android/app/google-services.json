@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283666006110",
+    "project_id": "cvsync-2c3a8",
+    "storage_bucket": "cvsync-2c3a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283666006110:android:221dc9e362cc5d5c51f4cf",
+        "android_client_info": {
+          "package_name": "com.example.cv_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPS-RCOIQBHDehk4Zy7pSw6ViVApKlE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283666006110:android:75f72ff694ca280851f4cf",
+        "android_client_info": {
+          "package_name": "com.example.test_cv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPS-RCOIQBHDehk4Zy7pSw6ViVApKlE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
