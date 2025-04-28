@@ -48,6 +48,7 @@ dependencies:
   pigeon: ^11.0.0
   intl: ^0.20.2
   syncfusion_flutter_pdfviewer: ^29.1.38
+  http: ^1.3.0
 
 dev_dependencies:
   flutter_test:
