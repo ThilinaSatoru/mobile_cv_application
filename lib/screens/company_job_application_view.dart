@@ -911,33 +911,34 @@ class _ViewApplicationsScreenState extends State<ViewApplicationsScreen> {
                     icon: Icon(Icons.description),
                     label: Text('View Resume'),
                   ),
-                  // Row(
-                  //   children: [
-                  //     IconButton(
-                  //       icon: Icon(Icons.email_outlined),
-                  //       tooltip: 'Send Email',
-                  //       onPressed: () {
-                  //         // Implement email functionality
-                  //         if (app['email'] != null && app['email'].isNotEmpty) {
-                  //           // Add email functionality here
-                  //           ScaffoldMessenger.of(context).showSnackBar(
-                  //             SnackBar(content: Text('Email feature not implemented yet')),
-                  //           );
-                  //         } else {
-                  //           ScaffoldMessenger.of(context).showSnackBar(
-                  //             SnackBar(content: Text('Email not available')),
-                  //           );
-                  //         }
-                  //       },
-                  //     ),
-                  //     IconButton(
-                  //       icon: Icon(Icons.more_vert),
-                  //       onPressed: () {
-                  //         _showOptionsMenu(context, app);
-                  //       },
-                  //     ),
-                  //   ],
-                  // ),
+                  Row(
+                    children: [
+                      IconButton(
+                        icon: Icon(Icons.email_outlined),
+                        tooltip: 'Send Email',
+                        onPressed: () {
+                          // Implement email functionality
+                          if (app['email'] != null && app['email'].isNotEmpty) {
+                            // Add email functionality here
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(content: Text(
+                                  'Email feature not implemented yet')),
+                            );
+                          } else {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(content: Text('Email not available')),
+                            );
+                          }
+                        },
+                      ),
+                      IconButton(
+                        icon: Icon(Icons.more_vert),
+                        onPressed: () {
+                          _showOptionsMenu(context, app);
+                        },
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
