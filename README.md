@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+<img src="assets/cv_app.png" alt="cv_app" width="300px" height=""/>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
